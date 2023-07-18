@@ -187,7 +187,24 @@
         height: 100vh;
         background-color: #dde1e9;
         padding: 100px 20px;
+        margin-bottom: 10rem;
     }
+
+     @media only screen and (max-width: 660px) {
+        .nosotros {
+            margin-bottom: 10rem;
+        }
+
+     }
+
+           @media only screen and (max-width: 460px) {
+               .nosotros {
+                   margin-bottom: 20rem;
+               }
+    
+           }
+
+    
 
     .nosotros .fila {
         display: flex;
